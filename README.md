@@ -5,7 +5,8 @@
 ## before start:
    Before running this python programe, please make sure that you have tweepy and google cloud library. of course python you have. In additon, you need have keys for twitter API and google cloud API. if not,trying following source, I hope they will help you.
    
-  ### 1.Checking tweepy and install: 
+   
+ ### 1.Checking tweepy and install: 
   
         python
         
@@ -15,12 +16,12 @@
           **if there are some errors**: 
              [instal tweepy in the termindal](https://pypi.org/project/tweepy/#history)
                 
-                pip install tweepy
+         pip install tweepy
                 
    ####   **Also having trouble**:
    ##### I got trouble in this step, maybe the reason is that I use virtualbox with ubuntu. [Try to install virtualenv](https://cloud.google.com/python/setup). Then open virtualen then try again:
                     
-             source env/bin/activate
+         source env/bin/activate
                     
-             pip install tweepy  
+         pip install tweepy  
        
