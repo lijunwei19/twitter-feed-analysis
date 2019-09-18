@@ -18,7 +18,7 @@
                 pip install tweepy
                 
    ####   **Also having trouble**:
-   #####I got trouble in this step, maybe the reason is that I use virtualbox with ubuntu. [Try to install virtualenv](https://cloud.google.com/python/setup). Then open virtualen then try again:
+   ##### I got trouble in this step, maybe the reason is that I use virtualbox with ubuntu. [Try to install virtualenv](https://cloud.google.com/python/setup). Then open virtualen then try again:
                     
              source env/bin/activate
                     
