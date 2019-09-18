@@ -14,12 +14,13 @@
    If there is no error, tweepy should be installed,
           **if there are some errors**: 
              [instal tweepy in the termindal](https://pypi.org/project/tweepy/#history)
+                
                 pip install tweepy
-            ####   **Also having trouble**:
-                   
-                   I got trouble in this step, maybe the reason is that I use virtualbox with ubuntu. [Try to install virtualenv](https://cloud.google.com/python/setup). Then open virtualen then try again:
+                
+   ####   **Also having trouble**:
+          I got trouble in this step, maybe the reason is that I use virtualbox with ubuntu. [Try to install virtualenv](https://cloud.google.com/python/setup). Then open virtualen then try again:
                     
-               source env/bin/activate
+             source env/bin/activate
                     
-               pip install tweepy  
+             pip install tweepy  
        
