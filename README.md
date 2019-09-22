@@ -1,4 +1,8 @@
-# twitter-feed-analysis
+
+
+#  -------------------***Twitter-Feed-Analysis***------------------
+
+
 ## User Story:
    The target customers for this project are people who are using twitter. users can track the hottest topics or famous stars  or events they concerns on by inputing keywords in this program. this project will download some twitter feeds in a time peroid which is user set through twitter API, then we get the reaslut of analysis by uploading the contents to google natural language API. basing on database for google natural language API, the program will return users how many percentage is positive attitude regarding the tpoics, stars and events. 
 
@@ -24,4 +28,15 @@
          source env/bin/activate
                     
          pip install tweepy  
+         
+ ###  2. Setting up google API
+ 
+   
+   -  [create a project in google cloud](https://cloud.google.com/resource-manager/docs/creating-managing-projects)                                                                                                                   
+   -  [Getting Started with Authentication](https://cloud.google.com/docs/authentication/getting-started)
+           
+          pip install google-cloud-language
+           
+          pip install google-cloud-vision
+            
        
