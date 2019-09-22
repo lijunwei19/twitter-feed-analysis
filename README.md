@@ -27,11 +27,12 @@
          
  ###  2. setting up google API
  
-         [create a project in google cloud](https://cloud.google.com/resource-manager/docs/creating-managing-projects)                                                                                                                   
-         [Getting Started with Authentication](https://cloud.google.com/docs/authentication/getting-started)
+   
+   -  [create a project in google cloud](https://cloud.google.com/resource-manager/docs/creating-managing-projects)                                                                                                                   
+   -  [Getting Started with Authentication](https://cloud.google.com/docs/authentication/getting-started)
            
-         pip install google-cloud-language
+          pip install google-cloud-language
            
-         pip install google-cloud-vision
+          pip install google-cloud-vision
             
        
