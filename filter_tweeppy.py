@@ -38,15 +38,14 @@ class StdOutListener(StreamListener):
 
  
 
-## function to tracking the feeds with "key words"
-
-## for example: 
 
 def track_feed(track_content):
    filter_feed_stream = "result.txt"
    twitter_streamer = TwitterStreamer()
    twitter_streamer.stream_tweets(filter_feed_stream, track_content)
 
+## function to tracking the feeds with "key words"
 
+## for example: 
 track_content = ["BU", "boston university"]
 track_feed(track_content)
