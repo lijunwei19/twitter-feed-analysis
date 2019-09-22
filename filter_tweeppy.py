@@ -5,6 +5,7 @@ import tweepy
 import private
 from tweepy.streaming import StreamListener
 from tweepy import Stream
+import json
 
 class TwitterStreamer():
     def __init__(self):
@@ -23,10 +24,11 @@ class StdOutListener(StreamListener):
         self.filter_feed_stream = filter_feed_stream
 
     def on_data(self, data):
+
         try:
             print(data)
-            with open(self.filter_feed_stream, 'a') as tf:
-                tf.write(data)
+            with open(self.filter_feed_stream, 'a') as outfile:
+                json.dump(data, outfile)
             return True
         except BaseException as e:
             print("Error on_data %s" % str(e))
@@ -40,8 +42,11 @@ class StdOutListener(StreamListener):
 
 ## for example: 
 
-## track_content = ["BU", "boston university"]
-track_feed(track_content): 
-  filter_feed_stream = "result.txt"
-  twitter_streamer = TwitterStreamer()
-  twitter_streamer.stream_tweets(filter_feed_stream, track_content)
+def track_feed(track_content):
+   filter_feed_stream = "result.txt"
+   twitter_streamer = TwitterStreamer()
+   twitter_streamer.stream_tweets(filter_feed_stream, track_content)
+
+
+track_content = ["BU", "boston university"]
+track_feed(track_content)
