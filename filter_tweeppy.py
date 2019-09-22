@@ -28,23 +28,25 @@ class StdOutListener(StreamListener):
         try:
             print(data)
             with open(self.filter_feed_stream, 'a') as outfile:
-                json.dump(data, outfile)
+                outfile.write(data)
             return True
         except BaseException as e:
             print("Error on_data %s" % str(e))
         return True         
     def on_error(self, status):
         print(status)
+
  
+
+## function to tracking the feeds with "key words"
+
+## for example: 
 
 def track_feed(track_content):
    filter_feed_stream = "result.txt"
    twitter_streamer = TwitterStreamer()
    twitter_streamer.stream_tweets(filter_feed_stream, track_content)
 
-## function to tracking the feeds with "key words"
-
-## for example:
 
 track_content = ["BU", "boston university"]
 track_feed(track_content)
