@@ -6,7 +6,8 @@
 ## User Story:
    The target customers for this project are people who are using twitter. users can track the hottest topics or famous stars  or events they concerns on by inputing keywords in this program. this project will download some twitter feeds in a time peroid which is user set through twitter API, then we get the reaslut of analysis by uploading the contents to google natural language API. basing on database for google natural language API, the program will return users how many percentage is positive attitude regarding the tpoics, stars and events. 
    
- ###  Architecture
+ ##  Architecture
+ https://github.com/lijunwei19/twitter-feed-analysis/blob/master/EC601_mini_project%20(1).png
  
 
 ## before start:
