@@ -38,7 +38,7 @@ def analysis_twitter_feeds(read_file_name, wirte_file_name, num_feeds):
     time.append(date)
     sentiment_score.append(score)
     sentiment_magnitude.append(magnitude)
-
+  f.close()
 
   data={}
   data["result"]=[]
@@ -52,7 +52,7 @@ def analysis_twitter_feeds(read_file_name, wirte_file_name, num_feeds):
 
   with open(wirte_file_name, 'a') as outfile:
       json.dump(data, outfile)
-
+  outfile.close()
 
 #example 
 read_file_name="result.txt"
