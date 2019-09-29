@@ -1,1 +1,5 @@
-## here is the result of filter_tweepy.py 
+// just an example
+hello world !
+good people.
+you are so bad.
+kkkkkkkkk.
