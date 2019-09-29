@@ -45,8 +45,8 @@
           export GOOGLE_APPLICATION_CREDENTIALS="/home/user/Downloads/[FILE_NAME].json"
  
   ###  3. Getting search results from twitter
-          We first use twitter API to get searching results, and the returning information are in json format.
-          Then we process these data and get the information we want, like the content, like amounts and retweet amounts.
+   -   [We first use twitter API to get searching results, and the returning information are in json format.]
+   -   [Then we process these data and get the information we want, like the content, like amounts and retweet amounts.]
           
 
             
