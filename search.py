@@ -25,4 +25,4 @@ auth.set_access_token(access_token, access_token_secret)
 api = tweepy.API(auth)
 tweets=api.search(q=sys.argv[1:],count=5,lang='en')
 for tweet in tweets:
-  print(tweet.text)
+  print(tweet.text, file=open("result.txt","a"))
