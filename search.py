@@ -13,10 +13,10 @@ except ImportError:
 import tweepy
 
 
-consumer_key = 'XXXXXXX'
-consumer_secret = 'XXXXXXXX'
-access_token = 'XXXXXXXX'
-access_token_secret = 'XXXXXXXX'
+consumer_key = 'OARHsYwZ9PqQ1db87f4S27b9E'
+consumer_secret = 'iQx8pHV9k2ZtaEbkokK2dWpMPnNDRANUm2agAbbS07ZjzswtNr'
+access_token = '754494342287417344-a7RVsdsLxuQPPkg7vnfydJQHv6agely'
+access_token_secret = 'hf0LgJAn0uBl7bcmZMHTfhc2u2gbdqFMjoYOvRJiHePy1'
 
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
